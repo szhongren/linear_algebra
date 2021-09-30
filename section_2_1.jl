@@ -12,6 +12,8 @@ function main()
     printout(problem_9_b())
     printout(problem_10_a())
     printout(problem_10_b())
+    printout(problem_11())
+    printout(problem_12())
 end
 
 function problem_1()
@@ -35,10 +37,18 @@ function problem_10_a()
 end
 
 function problem_10_b()
-    1 * [2; 1; 0; 0] + 
-    1 * [1; 2; 1; 0] + 
-    1 * [0; 1; 2; 1] + 
-    2 * [0; 0; 1; 2]
+    1 * [2; 1; 0; 0] + 1 * [1; 2; 1; 0] + 1 * [0; 1; 2; 1] + 2 * [0; 0; 1; 2]
+end
+
+function problem_11()
+    printout([2 3; 5 1] * [4; 2])
+    printout([3 6; 6 12] * [2; -1])
+    [1 2 4; 2 0 1] * [3; 1; 1]
+end
+
+function problem_12()
+    printout([12 1 3; 1 2 3; 3 3 6] * [1; 1; -1])
+    [2 1; 1 2; 3 3] * [1; 1]
 end
 
 main()
