@@ -1,7 +1,5 @@
-function printout(x)
-    show(stdout, "text/plain", x)
-    println()
-end
+include("utils.jl")
+using .Utils
 
 function main()
     printout(problem_2())
