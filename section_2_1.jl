@@ -1,5 +1,3 @@
-using LinearAlgebra
-
 function printout(x)
     show(stdout, "text/plain", x)
     println()
